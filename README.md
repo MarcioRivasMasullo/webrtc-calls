@@ -16,17 +16,19 @@ Follow these instructions to get the project up and running on your local machin
 
    ```bash
    git clone https://github.com/your-username/video-call-app.git
+   ```
 
-
-2. Install dependencies for client and serverÑ
+2. Install dependencies for client and server:
 
   ```bash
   cd webrtc-calls/client
   npm install
+  ``` 
 
   ```bash
   cd webrtc-calls/server
   npm install
+  ```
 
 ### Running the Application
 
@@ -35,6 +37,7 @@ Follow these instructions to get the project up and running on your local machin
   ```bash
   cd webrtc-calls/server
   node server.js
+  ```
 
 The server will be running at http://localhost:5000.
 
@@ -43,6 +46,7 @@ The server will be running at http://localhost:5000.
 ```bash
   cd webrtc-calls/client
   npm run dev
+  ```
 
 The client application will be accessible at http://localhost:3000.
 
