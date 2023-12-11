@@ -39,7 +39,7 @@ Follow these instructions to get the project up and running on your local machin
   node server.js
   ```
 
-The server will be running at http://localhost:5000.
+The server will be running at http://localhost:5001.
 
 2. Start the client:
 
