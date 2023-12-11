@@ -1,0 +1,29 @@
+.container {
+    height: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.container .messages {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 350px;
+}
+
+.container .input-box {
+    display: flex;
+    gap: 20px;
+}
+
+.container .input-box textarea {
+    width: 100%;
+    padding: 5px;
+}

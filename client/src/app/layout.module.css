@@ -1,0 +1,21 @@
+.app-bar {
+    height: 80px;
+    width: 100%;
+    background: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app-bar span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.app-bar span:hover {
+    color: #e0e0e0;
+}

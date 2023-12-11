@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.container h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.container .buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .buttons-container .divider {
+    height: 30px;
+    width: 1px;
+    background: gray;
+}

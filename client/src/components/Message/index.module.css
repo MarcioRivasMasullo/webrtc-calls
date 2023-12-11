@@ -1,0 +1,20 @@
+.container {
+    padding: 5px 15px;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+}
+
+.container.colored {
+    background: #000;
+    justify-content: end;
+}
+
+.container .text {
+    color: #000;
+    font-size: 14px;
+}
+
+.container.colored .text {
+    color: #fff;
+}
